@@ -1,2 +1,2 @@
 # Iluvrog.github.io
-My portfoli website
+My portfolio website
