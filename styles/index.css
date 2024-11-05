@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Caudex;
+    src: url("/styles/Caudex/Caudex-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html { font-size: 20px; font-family: Caudex, serif; }
+
+body { line-height: 1.6; background-color: #e9ecef; }
+
+header { text-align: center; padding: 20px; background-color: #f4f4f4; }
+
+section { margin: 10px 0; padding: 5px; }
+
+footer { text-align: center; padding: 10px; background-color: #f4f4f4; }
+
+a { text-decoration: none; color: #3498db; }
+
+ul, ol { margin: 10px; padding: 0; list-style-position: inside; }
+ul li { margin: 10px 0; padding: 10px; background-color: #d1ecf1; border-radius: 5px; }
+ol li { margin: 10px 0; padding: 10px; background-color: #d1ecf1; border-radius: 5px; }
+#ul-index { margin: 5px 0; padding: 5px; background-color: #e9ecef; border-radius: 5px; }

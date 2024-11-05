@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="icon" href="img/icon.ico" type="image/x-icon"/>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        header { text-align: center; padding: 20px; background-color: #f4f4f4; }
-        nav { margin: 20px 0; }
-        section { margin: 20px 0; padding: 20px; background-color: #e9ecef; }
-        footer { text-align: center; padding: 10px; background-color: #f4f4f4; }
-        a { text-decoration: none; color: #3498db; }
-    </style>
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -20,14 +13,15 @@
     <h1>Welcome in my portfolio download page</h1>
 </header>
 
-<nav>
+<section id="index">
+    <h2>Index</h2>
     <ul>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#download">Download</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#create_your_own">Create your own</a></li>
+        <li id="ul-index"><a href="#description">Description</a></li>
+        <li id="ul-index"><a href="#download">Download</a></li>
+        <li id="ul-index"><a href="#usage">Usage</a></li>
+        <li id="ul-index"><a href="#create_your_own">Create your own</a></li>
     </ul>
-</nav>
+</section>
 
 <section id="description">
     <h2>Description</h2>
@@ -39,7 +33,8 @@
     No really, be careful, some of my softwares can be used to make dangerous or illegal stuff.<br/>
     <br/>
     My executables were compiled with <a href="https://pypi.org/project/auto-py-to-exe/">auto-py-to-exe</a>.<br/>
-    The icon was made with <a href="https://designer.microsoft.com/image-creator">designer.microsoft.com</a>.</p>
+    The icon was made with <a href="https://designer.microsoft.com/image-creator">designer.microsoft.com</a>.<br/>
+    The font I use: <a href="https://fonts.google.com/specimen/Caudex">Caudex</a></p>
 </section>
 
 <section id="download">
@@ -68,17 +63,20 @@
 
 <section id="create_your_own">
     <h2>Create your own</h2>
-    <p>If you want to create your own portfolio using GooShaDow, you can, but you will need a google secret file, you can create one <a href="https://console.cloud.google.com/apis/">here</a>.<br/>
-    Once you have your client_secrets.json, place it in the same folder than GooShaDow.upload.exe.<br/>
-    <img src="img/create/client_secrets_1.png"><br/>
-    Then, start the application and connect.<br/>
-    <img src="img/create/connect_1.png"><br/>
-    Once your are connected, you need to set up your index. If you don't have one, just leave the entry empty, then click "Select Index", it will create a new one, make sure to save it's ID.<br/>
-    <img src="img/create/id_1.png"><br/><img src="img/create/id_2.png"><br/>
-    You can then upload a file from your computer or add an ID for a file already in google drive.<br/>
-    <img src="img/create/add_1.png"><br/><img src="img/create/add_2.png"><br/>
-    <br/>
-    TODO HOW TO GIVE THE ID TO YOUR FRIENDS</p>
+    <p>
+        If you want to create your own portfolio using GooShaDow, you can, but you will need a google secret file, you can create one <a href="https://console.cloud.google.com/apis/">here</a>.<br/>
+        <ul>
+            <li>Once you have your client_secrets.json, place it in the same folder than GooShaDow.upload.exe.<br/>
+            <img src="img/create/client_secrets_1.png"></li>
+            <li>Then, start the application and connect.<br/>
+            <img src="img/create/connect_1.png"></li>
+            <li>Once your are connected, you need to set up your index. If you don't have one, just leave the entry empty, then click "Select Index", it will create a new one, make sure to save it's ID.<br/>
+            <img src="img/create/id_1.png"><br/><img src="img/create/id_2.png"></li>
+            <li>You can then upload a file from your computer or add an ID for a file already in google drive.<br/>
+            <img src="img/create/add_1.png"><br/><img src="img/create/add_2.png"></li>
+            <br/>
+            <li>TODO HOW TO GIVE THE ID TO YOUR FRIENDS</li>
+        </ul></p>
 </section>
 
 <footer>
